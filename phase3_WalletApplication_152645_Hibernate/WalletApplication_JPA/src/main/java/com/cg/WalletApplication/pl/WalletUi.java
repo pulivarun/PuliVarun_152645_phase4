@@ -194,6 +194,7 @@ public class WalletUi  {
 			} while (choice != 7);
 		} catch (Exception exception) {
 			System.out.println(exception.getMessage());
+			scanner.next();
 		}
 	}
 
